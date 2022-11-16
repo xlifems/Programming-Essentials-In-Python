@@ -39,3 +39,28 @@ Salida
 ```sh
 Versión de Python: 3.7.1
 ```
+
+## Asignar un valor nuevo a una variable ya existente
+¿Cómo se le asigna un valor nuevo a una variable que ya ha sido creada? De la misma manera. Solo se necesita el signo de igual.
+
+El signo de igual es de hecho un operador de asignación. Aunque esto suene un poco extraño, el operador tiene una sintaxis simple y una interpretación clara y precisa.
+
+Asigna el valor del argumento de la derecha al de la izquierda, aún cuando el argumento de la derecha sea una expresión arbitraria compleja que involucre literales, operadores y variables definidas anteriormente.
+
+Observa el siguiente código:
+
+```python
+var = 1
+print(var)
+var = var + 1
+print(var)
+```
+
+El código envía dos líneas a la consola:
+
+```python
+1
+2
+```
+
+La primer línea del código crea una nueva variable llamada `var` y le asigna el valor de `1`.
