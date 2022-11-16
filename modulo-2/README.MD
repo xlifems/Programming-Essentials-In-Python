@@ -64,3 +64,29 @@ El código envía dos líneas a la consola:
 ```
 
 La primer línea del código crea una nueva variable llamada `var` y le asigna el valor de `1`.
+
+La declaración se lee de la siguiente manera: asigna el valor de `1` a una variable llamada `var`.
+
+De manera mas corta: asigna `1` a `var`.
+
+Algunos prefieren leer el código así: `var` se convierte en `1`.
+
+La tercera línea le asigna a la misma variable un nuevo valor tomado de la variable misma, sumándole 1. Al ver algo así, un matemático probablemente protestaría, ningún valor puede ser igualado a si mismo mas uno. Esto es una contradicción. Pero Python trata el signo = no como igual a, sino como asigna un valor.
+
+Entonces, ¿Cómo se lee esto en un programa?
+
+Toma el valor actual de la variable var, sumale 1 y guárdalo en la variable var.
+
+En efecto, el valor de la variable var ha sido incrementado por uno, lo cual no está relacionado con comparar la variable con otro valor.
+
+¿Puedes predecir cuál será el resultado del siguiente fragmento de código?
+
+```python
+var = 100
+var = 200 + 300
+print(var)
+```
+
+Salida
+
+`500` ¿Porque? Bueno, primero, la variable `var` es creada y se le asigna el valor de 100. Después, a la misma variable se le asigna un nuevo valor: el resultado de sumarle 200 a 300, lo cual es 500.
