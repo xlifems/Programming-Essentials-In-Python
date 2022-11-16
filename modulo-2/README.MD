@@ -41,6 +41,7 @@ Versión de Python: 3.7.1
 ```
 
 ## Asignar un valor nuevo a una variable ya existente
+
 ¿Cómo se le asigna un valor nuevo a una variable que ya ha sido creada? De la misma manera. Solo se necesita el signo de igual.
 
 El signo de igual es de hecho un operador de asignación. Aunque esto suene un poco extraño, el operador tiene una sintaxis simple y una interpretación clara y precisa.
@@ -90,3 +91,34 @@ print(var)
 Salida
 
 `500` ¿Porque? Bueno, primero, la variable `var` es creada y se le asigna el valor de 100. Después, a la misma variable se le asigna un nuevo valor: el resultado de sumarle 200 a 300, lo cual es 500.
+
+## Resolviendo problemas matemáticos simples
+
+Ahora deberías de ser capaz de construir un corto programa el cual resuelva problemas matemáticos sencillos como el Teorema de Pitágoras:
+
+El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los dos catetos.
+
+El siguiente código evalúa la longitud de la hipotenusa (es decir, el lado más largo de un triangulo rectángulo, el opuesto al ángulo recto) utilizando el Teorema de Pitágoras:
+
+```python
+a = 3.0
+b = 4.0
+c = (a ** 2 + b ** 2) ** 0.5
+print("c =", c)
+```
+
+Nota: se necesita hacer uso del operador `**` para evaluar la raíz cuadrada:
+ ___
+√(x)= x(½)
+
+y
+
+     _________
+c = √ a^2 + b^2
+
+¿Puedes predecir la salida del código?
+
+Revisa abajo y ejecuta el código en el editor para confirmar tus predicciones.
+
+Salida
+c = 5.0
