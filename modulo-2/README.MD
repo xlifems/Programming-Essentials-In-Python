@@ -121,4 +121,4 @@ c = √ a^2 + b^2
 Revisa abajo y ejecuta el código en el editor para confirmar tus predicciones.
 
 Salida
-c = 5.0
+`c = 5.0`
