@@ -108,12 +108,12 @@ print("c =", c)
 ```
 
 Nota: se necesita hacer uso del operador `**` para evaluar la raíz cuadrada:
- ___
-√(x)= x(½)
+
+
+√ (x) = x(½)
 
 y
 
-     _________
 c = √ a^2 + b^2
 
 ¿Puedes predecir la salida del código?
